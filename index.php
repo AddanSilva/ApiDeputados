@@ -22,8 +22,17 @@ echo "<pre>";
         var_dump($obj->dados[$i]);
         $nome = $obj->dados[$i];
      
-        print_r("<hr>" . $nome->urlFoto . "<hr>");
-     
+        echo'
+        
+        <div>
+        <img class="FotoPerfil" href="style.css" src=$nome->urlFoto>
+        
+        
+        
+        
+        </div>    
+        ';
+
     }
 
 
