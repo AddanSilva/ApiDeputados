@@ -18,7 +18,7 @@ $i = 1;
 for($i = 0;$i <= 512;$i++){   
     
     echo "<pre>";
-    var_dump($obj->dados[$i]);
+    print_r($obj->dados[$i]);
 
     }
     ?>
